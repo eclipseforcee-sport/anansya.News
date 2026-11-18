@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANANSYA NEWS - Berita Terkini</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    color: #222;
+}
+
+/* HEADER */
+header {
+    background: #b90000;
+    color: white;
+    padding: 22px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #ffdb00;
+}
+
+.live {
+    background: white;
+    color: red;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* NAVIGATION */
+nav {
+    background: #222;
+    padding: 13px 7%;
+    color: white;
+    font-size: 13px;
+}
+
+nav span {
+    color: #ffcc00;
+}
+
+/* CONTENT */
+.container {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 0 18px;
+}
+
+.category {
+    color: #c40000;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 1.35;
+    margin-bottom: 15px;
+    color: #171717;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.info {
+    font-size: 12px;
+    color: #777;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 18px;
+}
+
+/* IMAGE */
+.news-image {
+    margin: 25px 0;
+    width: 100%;
+    height: 420px;
+    background: #d1d1d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeholder {
+    color: #777;
+    font-size: 16px;
+}
+
+/* NEWS TEXT */
+.article {
+    background: white;
+    padding: 28px;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+.article p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.quote {
+    border-left: 5px solid #c90000;
+    padding: 18px;
+    margin: 25px 0;
+    background: #f4f4f4;
+    font-style: italic;
+}
+
+/* REPORTER */
+.reporter {
+    margin-top: 25px;
+    padding: 18px;
+    background: #222;
+    color: white;
+    border-left: 5px solid red;
+}
+
+.reporter strong {
+    color: #ffcc00;
+}
+
+/* DISCLAIMER */
+.disclaimer {
+    margin-top: 25px;
+    background: #fff4d6;
+    padding: 15px;
+    font-size: 12px;
+    color: #775500;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    background: #171717;
+    color: white;
+    padding: 30px 7%;
+    text-align: center;
+}
+
+footer h2 {
+    color: #ff3333;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #aaa;
+    margin: 8px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+@media(max-width:600px) {
+    .logo {
+        font-size: 23px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .news-image {
+        height: 240px;
+    }
+
+    .article {
+        padding: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ANANSYA <span>NEWS</span></div>
+    <div class="live">● NEWS UPDATE</div>
+</header>
+
+<nav>
+    HOME &nbsp; / &nbsp; BERITA TERKINI &nbsp; / &nbsp;
+    <span>INVESTIGASI</span>
+</nav>
+
+<div class="container">
+
+    <div class="category">BERITA UTAMA — INVESTIGASI</div>
+
+    <h1>
+    SEORANG PELAJAR DIDUGA MELAKUKAN BLUNDER BESAR
+    </h1>
+
+    <div class="subtitle">
+    Hasil investigasi masih terus ditelusuri.
+    Tim terkait berupaya mengumpulkan keterangan
+    untuk mengetahui kronologi dan motif kejadian.
+    </div>
+
+    <div class="info">
+        ANANSYA NEWS | 18 NOVEMBER 2026 |
+        REDAKSI INVESTIGASI
+    </div>
+
+    <!-- TEMPAT FOTO -->
+    <div class="news-image">
+        <img src="foto-berita.jpg"
+        alt="Foto ilustrasi berita"
+        onerror="this.style.display='none';
+        this.nextElementSibling.style.display='block';">
+
+        <div class="placeholder" style="display:none;">
+            TEMPAT FOTO BERITA
+        </div>
+    </div>
+
+    <div class="article">
+
+        <p>
+        <strong>JAKARTA —</strong> Sebuah kabar mengenai
+        dugaan insiden yang melibatkan seorang pelajar
+        berinisial A menjadi perhatian publik.
+        Informasi awal yang beredar masih memerlukan
+        verifikasi lebih lanjut sebelum dapat dipastikan
+        kebenarannya.
+        </p>
+
+        <p>
+        Berdasarkan keterangan awal dalam skenario
+        investigasi fiktif ini, terdapat pesan singkat
+        yang diklaim telah diterima oleh tim investigasi.
+        Namun, keaslian dan konteks pesan tersebut
+        belum dapat dipastikan.
+        </p>
+
+        <div class="quote">
+        "Kami masih mengumpulkan informasi dan
+        melakukan pemeriksaan terhadap setiap
+        keterangan yang masuk."
+        </div>
+
+        <p>
+        Khairan selaku perwakilan tim investigasi
+        menyampaikan bahwa pihaknya berupaya menjaga
+        agar informasi yang belum terverifikasi tidak
+        berkembang menjadi kesimpangsiuran di tengah
+        masyarakat, khususnya wilayah Matraman.
+        </p>
+
+        <p>
+        Ia juga menegaskan bahwa setiap pihak akan
+        diberikan kesempatan untuk menyampaikan
+        keterangan sebelum kesimpulan diambil.
+        </p>
+
+        <div class="reporter">
+            <strong>KHARIAN — PERWAKILAN TIM INVESTIGASI</strong>
+            <p>
+            "Kami akan terus meminta keterangan dari
+            pihak-pihak terkait agar dapat mengambil
+            sikap secara tepat. Seluruh proses harus
+            dilakukan berdasarkan fakta dan bukti
+            yang dapat dipertanggungjawabkan."
+            </p>
+            <small>Simulasi wawancara — ANANSYA NEWS</small>
+        </div>
+
+        <div class="disclaimer">
+            <strong>PERHATIAN:</strong>
+            Konten ini merupakan simulasi berita fiktif
+            untuk keperluan desain dan hiburan.
+            Bukan laporan jurnalistik atau tuduhan
+            terhadap individu maupun institusi nyata.
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <h2>ANANSYA NEWS</h2>
+
+    <p>Independent Digital News Platform</p>
+
+    <p>
+    © 2026 ANANSYA NEWS.
+    All Rights Reserved.
+    </p>
+
+    <p>
+    Hak Cipta Dilindungi Undang-Undang
+    </p>
+
+    <p>
+    Contact Person:
+    <a href="mailto:redaksi@anansyanews.com">
+    Tim Redaksi ANANSYA NEWS
+    </a>
+    </p>
+
+    <p>
+    Designed for Digital Journalism
+    </p>
+</footer>
+
+</body>
+</html>
